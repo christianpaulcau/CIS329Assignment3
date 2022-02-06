@@ -1,0 +1,28 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #AAAAAA;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+table.unstyledTable {
+    text-align: center;
+}
+table.unstyledTable td, table.unstyledTable th {
+    border: 3px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.unstyledTable td:nth-child(even) {
+    background: #D0E4F5;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #AAAAAA;
+   color: white;
+   text-align: center;
+}
